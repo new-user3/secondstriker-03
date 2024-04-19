@@ -1,0 +1,39 @@
+/* styles.css */
+
+/* Define the dark theme colors */
+:root {
+    --primary: #2A2438;
+    --secondary: #352F44;
+    --accent: #5C5470;
+    --background: #2A2438; 
+    --surface: #DBD8E3;
+    --error: #f44336;
+    --info: #2196f3;
+    --success: #4caf50;
+    --warning: #ff9800;
+  }
+  
+  
+  .v-application {
+    background-color: var(--background);
+  }
+  
+  .v-app-bar {
+    background-color: var(--primary);
+    color: var(--surface);
+  }
+  
+  .v-main {
+    background-color: var(--background);
+  }
+  
+  .v-bottom-navigation {
+    background-color: var(--secondary);
+  }
+  
+  .v-btn {
+    color: var(--surface);
+  }
+  
+  /* Adjust other component styles as needed */
+  
