@@ -235,3 +235,174 @@ If this is intended as a serious project, those are mandatory additions.
 # License
 
 Add a license file if this project is public. Absence of a license defaults to “all rights reserved.”
+
+# SecondStriker
+
+A full-stack football matchroom application built with:
+
+* **Backend:** Node.js + Express
+* **Frontend:** Vue 3 + Vite
+* **UI Framework:** Vuetify
+
+This project demonstrates a clean separation between backend API logic and frontend SPA architecture.
+
+---
+
+## Project Structure
+
+```
+secondstriker-03/
+├── backend/        # Express server
+├── frontend/       # Vue 3 + Vite application
+└── README.md
+```
+
+---
+
+## Tech Stack
+
+### Backend
+
+* Express
+* REST-style routing
+* Modular route structure
+* Node HTTP server
+
+### Frontend
+
+* Vue 3 (Composition API)
+* Vue Router
+* Vite
+* Vuetify UI framework
+
+---
+
+## Prerequisites
+
+* Node.js (v18+ recommended)
+* npm
+
+Verify installation:
+
+```bash
+node -v
+npm -v
+```
+
+---
+
+## Installation
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/new-user3/secondstriker-03.git
+cd secondstriker-03
+```
+
+---
+
+### 2. Install Backend Dependencies
+
+```bash
+cd backend
+npm install
+```
+
+---
+
+### 3. Install Frontend Dependencies
+
+```bash
+cd ../frontend
+npm install
+```
+
+---
+
+## Running the Application
+
+You must run backend and frontend in separate terminals.
+
+---
+
+### Start Backend
+
+```bash
+cd backend
+npm start
+```
+
+Default URL:
+
+```
+http://localhost:3000
+```
+
+---
+
+### Start Frontend
+
+```bash
+cd frontend
+npm run dev
+```
+
+Default Vite URL:
+
+```
+http://localhost:5173
+```
+
+---
+
+## Production Build
+
+Build frontend:
+
+```bash
+cd frontend
+npm run build
+```
+
+The production-ready files will be in:
+
+```
+frontend/dist/
+```
+
+Serve using:
+
+* Express static middleware
+* Nginx
+* Or any production Node server
+
+---
+
+## Key Features
+
+* Matchroom interface
+* League and match navigation
+* User profile routing
+* REST-style backend endpoints
+* Modern Vue SPA architecture
+* Component-based UI with Vuetify
+
+---
+
+## Areas for Improvement
+
+This project is a structural foundation. For production readiness:
+
+* Add authentication & authorization
+* Integrate a database (PostgreSQL / MongoDB)
+* Implement environment variables via `.env`
+* Add API documentation (Swagger/OpenAPI)
+* Introduce testing (Jest / Vitest)
+* Add CI/CD pipeline
+
+---
+
+## License
+
+Add a LICENSE file before making the repository public. Without one, the code defaults to full copyright ownership.
